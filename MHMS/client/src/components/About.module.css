@@ -1,0 +1,237 @@
+/* .container {
+  width: 1100px;
+  height: 400px;
+  margin-left: 400px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgb(246, 230, 190);
+}
+
+.mission {
+  font-size: 50px;
+  text-align: center;
+
+  margin-left: 30px;
+}
+
+.mission h1 {
+  font-size: 55px;
+  font-weight: bold;
+
+
+}
+.mission h1 u{
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 100px;
+
+}
+
+.para {
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 20px;
+  
+  color:black;
+}
+
+
+.para3 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.iim {
+  font-size: 2rem;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.para4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 395px;
+}
+
+
+.pp{
+  font-size: 2rem;
+  margin-left: 393px;
+  margin-top: 30px;
+}
+.ppp{
+    font-size: 2rem;
+    margin-left: 393px;
+    margin-top: 30px;
+} */
+
+
+
+/* MissionResults.module.css */
+
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Main Navbar Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImage {
+  width: 120px;
+  padding: 10px 0;
+}
+
+.navArea {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navArea li {
+  margin: 0 15px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.navLink:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* Second Navbar Styles */
+.secondaryNav {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+
+.secondaryNav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.secondaryNav ul li {
+  margin: 0 20px;
+}
+
+.secondaryNavLink {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.secondaryNavLink:hover {
+  color: #4caf50;
+}
+
+/* Section Styles */
+.section  {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.section .model .results{
+  height: 100px;
+}
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoImage {
+    width: 120px;
+  }
+
+  .navArea {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navLink {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+  .secondaryNav ul {
+    flex-direction: column;
+  }
+
+  .secondaryNav ul li {
+    margin: 10px 0;
+  }
+}
